@@ -68,14 +68,14 @@ The data is stored in 5 tables: users.csv, calls.csv, messages.csv, internet.csv
 'message_date' — text message date<br/>
 'user_id' — the identifier of the user sending the text
 
-#### The internet table (data on web sessions):
+#### The internet.csv table (data on web sessions):
 
 'id' — unique session identifier<br/>
 'mb_used' — the volume of data spent during the session (in megabytes)<br/>
 'session_date' — web session date<br/>
 'user_id' — user identifier
 
-#### The plans table (data on the plans):
+#### The plans.csv table (data on the plans):
 
 'plan_name' — calling plan name<br/>
 'usd_monthly_fee' — monthly charge in US dollars<br/>
